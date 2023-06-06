@@ -1,0 +1,7 @@
+name: build-and-push
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    uses: liatrio/gh-trusted-builds-workflows/.github/workflows/build-and-push.yaml@main
