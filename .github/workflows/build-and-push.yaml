@@ -9,8 +9,13 @@ jobs:
   build-and-push:
     uses: liatrio/gh-trusted-builds-workflows/.github/workflows/build-and-push.yaml@main
     permissions:
-          actions: read
-          id-token: write
-          contents: read
-          packages: write
-          pull-requests: read
+      actions: read
+      id-token: write
+      contents: read
+      packages: write
+      pull-requests: read
+    with:
+      fulcioUrl: "https://fulcio.sigstage.dev"
+      rekorUrl: "https://rekor.sigstage.dev"
+      tufMirror: "https://tuf-repo-cdn.sigstore.dev"
+      tufRoot: "sigstore/1.root.json"
