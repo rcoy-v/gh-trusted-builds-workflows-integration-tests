@@ -18,4 +18,4 @@ jobs:
       fulcioUrl: "https://fulcio.sigstage.dev"
       rekorUrl: "https://rekor.sigstage.dev"
       tufMirror: "https://tuf-repo-cdn.sigstore.dev"
-      tufRoot: "sigstore/1.root.json"
+      tufRoot: "app/sigstore/1.root.json"
