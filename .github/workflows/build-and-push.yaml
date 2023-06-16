@@ -17,5 +17,5 @@ jobs:
     with:
       fulcioUrl: "https://fulcio.sigstage.dev"
       rekorUrl: "https://rekor.sigstage.dev"
-      tufMirror: "https://tuf-preprod-repo-cdn.sigstore.dev"
+      tufMirror: "https://tuf-root-staging.storage.googleapis.com"
       tufRoot: "app/sigstore/root.json"
